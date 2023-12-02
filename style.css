@@ -1,0 +1,146 @@
+*  {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 16px;
+}
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 16px;
+}
+
+.header-contacts {
+    display: flex;
+    text-align:right;
+}
+
+.header-logo {
+    width: 180px;
+    height: 38px;
+}
+
+.header-email {
+    padding-right: 20px;
+    border: none;
+    margin-bottom: 32px;
+}
+
+#upper-color {
+    color: #607CE6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 1px solid currentColor;
+}
+
+#upper-but {
+    border: none;
+    background-color: white;
+    color: #607CE6;
+    font-weight: 600;
+    font-size: 20px;
+}  
+header {
+    margin: 32px 130px 80px 130px;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    border: none;
+    background-color: white;
+    margin-left: 72px;
+    width: 20%;
+}
+
+#lower-header-text {
+    color: #607CE6;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.lower-header-line {
+    width: 1180px;
+    height: 1px;
+    top: 109px;
+    left: 130px;
+    color: #888888;
+}
+
+.nav {
+    color: #333333;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: #607CE6;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: none
+}
+
+/* ПЕРВАЯ СЕКЦИЯ */
+.section {
+    margin: 0px 130px 80px 130px;
+
+}
+
+.section-image {
+    width: 100%;
+}
+
+.first-section_header  {
+    font-size: 60px;
+}
+
+.first-section_text {
+    display: flex;
+    padding-bottom: 32px;
+}
+
+#first-section_p {
+    padding-top: 26px;
+    padding-left: 20px;
+}
+
+
+/* ВТОРАЯ СЕКЦИЯ */
+.second-section__header {
+    font-size: 50px;
+    display: flex;
+}
+
+
+.second-section_text1 {
+    padding-bottom: 24px;
+    padding-top: 32px;
+}
+
+.second-section_text3 {
+    
+}
+
+
+.second-section-image {
+    width: 580px;
+    height: 280px;
+}
+
+#second-section_image {
+    padding-right: 20px;
+}
