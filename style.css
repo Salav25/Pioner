@@ -7,11 +7,20 @@
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 p {
     font-weight: 400px;
     font-size: 16px;
+}
+
+li {
+    list-style-type: none
+}
+
+h1, h2, h3 {
+    color: #333333;
 }
 .upper-header {
     display: flex;
@@ -122,19 +131,24 @@ header {
 /* ВТОРАЯ СЕКЦИЯ */
 .second-section__header {
     font-size: 50px;
-    display: flex;
 }
 
 
 .second-section_text1 {
     padding-bottom: 24px;
     padding-top: 32px;
+    line-height: 22.4px;
+}
+
+.second-section_text2 {
+    margin-top: 32px;
+    margin-left: 20px;
+    line-height: 22.4px;
 }
 
 .second-section_text3 {
-    
+    line-height: 22.4px;
 }
-
 
 .second-section-image {
     width: 580px;
@@ -143,4 +157,83 @@ header {
 
 #second-section_image {
     padding-right: 20px;
+}
+
+.second-section_container_text {
+    display: flex;
+}
+
+.third-section_header {
+    font-size: 48px;
+}
+
+/* ТРЕТИЯ СЕКЦИЯ */
+
+/* ПЕРВЫЙ КУБ */
+.grey-cube {
+    background-color: #F5F5F5;
+    width: 380px;
+    height: 435px;
+    margin-top: 32px;
+}
+
+.grey-cube_text {
+    color: #607CE6;
+    font-weight: 400px;
+    size: 20px;
+    line-height: 24px;
+}
+
+.grey-cube_image {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.first-cube_texts {
+    margin: 107px 82px 68px 24px
+}
+
+/* ВТОРОЙ КУБ */
+
+.second-cube_texts {
+    margin: 166px 121px 68px 24px
+}
+
+/* ТРЕТИЙ КУБ */
+
+.third-cube_texts {
+    margin: 143px 142px 68px 24px;
+}
+
+/* ЧЕТВЁРТЫЙ КУБ */
+
+.fourth-cube_texts {
+    margin: 152px 77px 68px 24px;
+}
+
+/* ПЯТЫЙ КУБ */
+
+.Fifth-cube_texts {
+    margin: 160px 55px 68px 24px
+}
+
+/* ШЕСТОЙ КУБ */
+
+.Sixth-cube_texts {
+    margin: 163px 208px 68px 24px;
+}
+
+.container-services {
+    display: flex;
+    width: 1180px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ЧЕТВЁРТЫЙ СЕКЦИЯ */
+
+.fourth-section_header {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 57.6px;
 }
