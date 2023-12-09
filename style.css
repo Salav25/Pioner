@@ -133,6 +133,9 @@ header {
     font-size: 50px;
 }
 
+.second-section_text {
+
+}
 
 .second-section_text1 {
     padding-bottom: 24px;
@@ -151,12 +154,12 @@ header {
 }
 
 .second-section-image {
-    width: 580px;
-    height: 280px;
+    width: 60vw;
+    height: 30vh;
 }
 
-#second-section_image {
-    padding-right: 20px;
+.second-image2 {
+    display: flex;
 }
 
 .second-section_container_text {
@@ -196,7 +199,7 @@ header {
 /* ВТОРОЙ КУБ */
 
 .second-cube_texts {
-    margin: 166px 121px 68px 24px
+    margin: 190px 121px 68px 24px
 }
 
 /* ТРЕТИЙ КУБ */
@@ -230,10 +233,67 @@ header {
     justify-content: space-between;
 }
 
-/* ЧЕТВЁРТЫЙ СЕКЦИЯ */
+/* ЧЕТВЁРТАЯ СЕКЦИЯ */
 
 .fourth-section_header {
     font-weight: 700px;
     font-size: 48px;
     line-height: 57.6px;
+}
+
+
+/* ПЯТАЯ СЕКЦИЯ */
+
+.fifth-section_header {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.fifth-section_img {
+    width: 380px;
+    height: 251px;
+}
+
+.fifth-section_card {
+    margin-top: 32px;
+    width: 380px;
+    height: 477px;
+}
+
+.fifth-section_p {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 16px 0px 16px;
+}
+
+.fifth-section_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 81px 16px 25px 16px;
+}
+
+.fifth-section_a {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#607CE6;
+}
+
+.fifth-section_data {
+    color: #888888;
+}
+
+.fifth-section_footer1 {
+    margin: 109px 16px 25px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-section {
+    display: flex;
+    width: 1180px;
+    height: 568px;
+    justify-content: space-evenly;
 }
